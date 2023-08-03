@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.input-section label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.input-section input[type="number"], .input-section input[type="date"] {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(245,245,245);
+  border: 2px solid rgb(226,226,226);
+  outline: none;
+  border-radius: 8px;
+  border: solid 2px rgba(0, 0, 255, 0.493);;
+}
+.input-section button {
+  padding: 5px 10px;
+  background-color:rgba(0, 0, 255, 0.493);;
+  color: azure;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 35%;
+  width: 35%;
+  margin-top: 100px;
+  height: 40px;
+  
+}
+
+.py{
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(245,245,245);
+  border: 2px solid rgb(226,226,226);
+  outline: none;
+  border-radius: 8px;
+  border: solid 2px rgba(0, 0, 255, 0.493);;
+}
+.text{
+  
+  border: solid 2px rgba(0, 0, 255, 0.493);
+  border-radius: 3px;
+  background-color: rgb(245,245,245);
+}
+.category-name{
+    padding: 10px;
+  margin: 10px;
+  background-color: rgb(245,245,245);
+  border: 2px solid rgb(226,226,226);
+  outline: none;
+  border-radius: 8px;
+  border: solid 2px rgba(0, 0, 255, 0.493);;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background:rgba(0, 0, 255, 0.334);;
+  
+}
+
+nav ul{
+display: flex;
+list-style:  none;
+margin:0 ;
+padding: 0;
+
+}
+
+nav li{
+  margin: 0 10px;
+}
+
+
+nav li a{
+
+text-decoration: none;
+padding: 10px;
+
+
+
+}
+
+.logo{
+  margin: 80px;
+  color: rgba(0, 0, 255, 0.493);
+}
